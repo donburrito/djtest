@@ -19,7 +19,7 @@ function downloadFile(file) {
   const protocol = window.location.protocol;
   const hostname = window.location.hostname;
   const port = window.location.port;
-  const baseUrl = `${protocol}//${hostname}:${port}/`;
+  const baseUrl = `${protocol}//${hostname}:${port}/djtest/`;
   const fullAddress = baseUrl + file;
 
   console.log("fullAddress: " + fullAddress);
