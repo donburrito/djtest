@@ -9,7 +9,7 @@ function populateArtwork() {
   const protocol = window.location.protocol;
   const hostname = window.location.hostname;
   const port = window.location.port;
-  const baseUrl = `${protocol}//${hostname}:${port}/`;
+  const baseUrl = `${protocol}//${hostname}:${port}/djtest/`;
 
   for (let photo of window.photoList) {
     const photoFullPath = ARTWORK_DIRECTORY + photo;
