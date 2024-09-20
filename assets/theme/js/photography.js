@@ -87,3 +87,10 @@ function populatePhotos() {
 }
 
 populatePhotos()
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
+const yourFunction = async () => {
+  await delay(5000);
+  console.log("Waited 5s");
+};
+yourFunction()
